@@ -1,0 +1,29 @@
+.login-page {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh; 
+  background-image: url("src/assets/test4.jpg");
+  background-size: cover;
+} 
+
+.mat-card {
+  width: 400px; 
+  margin-right: 1000px;
+  margin-top: 10px;
+}
+  mat-form-field, mat-checkbox {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+  mat-card-content {
+    margin-top: 20px;
+  }
+  
+  .login-button {
+    margin-top: 20px;
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+  }
